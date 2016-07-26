@@ -14,38 +14,39 @@
   <remote  name="github"
            fetch="https://github.com" />
   
-  <remote  name="krexus-caf"
+  <remote  name="krexusmod-caf"
            revision="caf"
            fetch="https://github.com/krexus-caf" />
 
-<!-- BEGIN KREXUS-CAF -->
-  <project name="manifest" path="manifest" remote="krexus-caf" />
-  <project name="build" path="build" remote="krexus-caf" >
+<!-- BEGIN KREXUSMOD-CAF -->
+  <project name="manifest" path="manifest" remote="krexusmod-caf" revision="caf-oms" />
+  <project name="build" path="build" remote="krexusmod-caf" revision="caf-oms" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project name="external_libpng" path="external/libpng" groups="pdk" remote="krexus-caf" />
-  <project name="external_sepolicy" path="external/sepolicy" remote="krexus-caf" />
-  <project name="frameworks_av" path="frameworks/av" remote="krexus-caf" />
-  <project name="frameworks_base" path="frameworks/base" remote="krexus-caf" />
-  <project name="frameworks_native" path="frameworks/native" remote="krexus-caf" />
-  <project name="frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" groups="pdk" remote="krexus-caf" />
-  <project name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="krexus-caf" />
-  <project name="packages_apps_Contacts" path="packages/apps/Contacts" remote="krexus-caf" />
-  <project name="packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="krexus-caf" />
-  <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="krexus-caf" />
-  <project name="packages_apps_InCallUI" path="packages/apps/InCallUI" remote="krexus-caf" />
-  <project name="packages_apps_MusicFX" path="packages/apps/MusicFX" remote="krexus-caf" />
-  <project name="packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="krexus-caf" />
-  <project name="packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="krexus-caf" />
-  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="krexus-caf" />
-  <project name="packages_apps_Snap" path="packages/apps/Snap" remote="krexus-caf" />
-  <project name="packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" groups="pdk-cw-fs" remote="krexus-caf" />
-  <project name="packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="krexus-caf" />
-  <project name="packages_services_Telecomm" path="packages/services/Telecomm" remote="krexus-caf" />
-  <project name="packages_services_Telephony" path="packages/services/Telephony" remote="krexus-caf" />
-  <project name="system_core" path="system/core" remote="krexus-caf" />
-  <project name="system_vold" path="system/vold" remote="krexus-caf" />
-  <project name="vendor_krexus" path="vendor/krexus" remote="krexus-caf" />
+  <project name="external_libpng" path="external/libpng" groups="pdk" remote="krexusmod-caf" />
+  <project name="external_sepolicy" path="external/sepolicy" remote="krexusmod-caf" revision="caf-oms" />
+  <project name="frameworks_av" path="frameworks/av" remote="krexusmod-caf" />
+  <project name="frameworks_base" path="frameworks/base" remote="krexusmod-caf" revision="caf-oms" />
+  <project name="frameworks_native" path="frameworks/native" remote="krexusmod-caf" revision="caf-oms" />
+  <project name="frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" groups="pdk" remote="krexusmod-caf" />
+  <project name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="krexusmod-caf" />
+  <project name="packages_apps_Contacts" path="packages/apps/Contacts" remote="krexusmod-caf" />
+  <project name="packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="krexusmod-caf" />
+  <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="krexusmod-caf" />
+  <project name="packages_apps_InCallUI" path="packages/apps/InCallUI" remote="krexusmod-caf" />
+  <project path="packages/apps/masquerade" name="masquerade" remote="krexusmod-caf" revision="caf-oms" />
+  <project name="packages_apps_MusicFX" path="packages/apps/MusicFX" remote="krexusmod-caf" />
+  <project name="packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="krexusmod-caf" />
+  <project name="packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="krexusmod-caf" />
+  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="krexusmod-caf" revision="caf-oms" />
+  <project name="packages_apps_Snap" path="packages/apps/Snap" remote="krexusmod-caf" />
+  <project name="packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" groups="pdk-cw-fs" remote="krexusmod-caf" />
+  <project name="packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="krexusmod-caf" />
+  <project name="packages_services_Telecomm" path="packages/services/Telecomm" remote="krexusmod-caf" />
+  <project name="packages_services_Telephony" path="packages/services/Telephony" remote="krexusmod-caf" />
+  <project name="system_core" path="system/core" remote="krexusmod-caf" />
+  <project name="system_vold" path="system/vold" remote="krexusmod-caf" />
+  <project name="vendor_krexus" path="vendor/krexus" remote="krexusmod-caf" revision="caf-oms" />
 <!-- END KREXUS-CAF -->
 
 <!-- BEGIN AOSP-CAF -->
