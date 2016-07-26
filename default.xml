@@ -16,7 +16,7 @@
   
   <remote  name="krexusmod-caf"
            revision="caf"
-           fetch="https://github.com/krexus-caf" />
+           fetch="https://github.com/krexusmod-caf" />
 
 <!-- BEGIN KREXUSMOD-CAF -->
   <project name="manifest" path="manifest" remote="krexusmod-caf" revision="caf-oms" />
