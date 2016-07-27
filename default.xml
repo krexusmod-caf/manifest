@@ -34,6 +34,7 @@
   <project name="packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="krexusmod-caf" />
   <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="krexusmod-caf" />
   <project name="packages_apps_InCallUI" path="packages/apps/InCallUI" remote="krexusmod-caf" />
+  <project path="packages/apps/KrexusOTA" name="packages_apps_KrexusOTA" remote="krexusmod-caf" revision="mm" />
   <project path="packages/apps/masquerade" name="masquerade" remote="krexusmod-caf" revision="caf-oms" />
   <project name="packages_apps_MusicFX" path="packages/apps/MusicFX" remote="krexusmod-caf" />
   <project name="packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="krexusmod-caf" />
